@@ -1,0 +1,21 @@
+body {}
+
+h1 {
+    background-color: red;
+    width: 400px;
+    height: 300px;
+}
+
+p {
+    background-color: burlywood;
+    width: 800px;
+    #為什麼這邊沒有設定height? 因為如果沒有特別設定，高度會以“內容”的高度為高
+}
+
+a {
+    background-color: chartreuse;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+

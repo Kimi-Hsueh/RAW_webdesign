@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emment語法題</title>
+</head>
+
+<body>
+    參考資料：教材裡的"HTML簡略快寫-Emmet.doc"
+    <p>1 同時有5個class名稱叫box的div</p>
+    <p>~div.box*5~</p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <p>2 同時有兩組h1和p</p>
+    <p>#(h1+p)*2</p>
+    <h1></h1>
+    <p></p>
+    <h1></h1>
+    <p></p>
+
+    <p>3 同時產生一個h1和5個p</p>
+    <p>#h1+p*5</p>
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <p>4 產生3個div，而div內有imp、h3、p</p>
+    < <p>#(div>imp+h3+p)*3</p>
+        <div>
+            <imp></imp>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <imp></imp>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <imp></imp>
+            <h3></h3>
+            <p></p>
+        </div>
+
+        <p>產生5個有文字內容超連結及段落</p>
+        <p>#(p>a{文字內容})*5</p>
+        <p><a href="">文字內容</a></p>
+        <p><a href="">文字內容</a></p>
+        <p><a href="">文字內容</a></p>
+        <p><a href="">文字內容</a></p>
+        <p><a href="">文字內容</a></p>
+
+
+        <p>產生1個class名稱為tt的h1和2個class名稱為txt的p</p>
+        <p>h1.tt+h1.txt*2</p>
+        <h1 class="tt"></h1>
+        <h1 class="txt"></h1>
+        <h1 class="txt"></h1>
+
+
+
+
+
+
+</body>
+
+</html>

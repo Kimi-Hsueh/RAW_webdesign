@@ -1,0 +1,19 @@
+body{
+
+}
+p{
+
+}
+a:link{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Times New Roman', Times , '標楷體', serif;
+    font-size: 60px;
+}
+
+a:hover{
+    background-color: red;
+    color: rgb(185, 231, 236);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', '微軟正黑體' , sans-serif;
+    font-size: 80px;
+}

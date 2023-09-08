@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+td.left{
+    background-color: royalblue;
+    color: red;
+}
+td.middle{
+    background-color: rgb(106, 150, 85);
+        padding: 10px 40px 30px;
+}
+td#right{
+    background-color: royalblue;
+}
+td.left,td.right{
+    color: black;
+}
+td.middle h4{
+    color: red; font-size: 2em;
+}
+td.left.p, td#right.p{
+    color: yellowgreen;font-size: 1em;
+}
+td#
+
