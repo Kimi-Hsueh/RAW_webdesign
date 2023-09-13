@@ -1,0 +1,23 @@
+body{
+    background-image: repeating-linear-gradient(20deg, blue 0px, red, 10px);
+}
+
+a{
+        display: block;
+            width: 60px;
+            text-align: center; /*水平置中*/
+            height: 80px; /*盒高*/
+            line-height: 80px; /*行高*/
+            text-decoration: none; /*隱藏底線*/
+            border: black 1px dashed; /*設定邊界線*/
+            border-top: cornflowerblue 8px double; /*設定上邊界線*/
+            border-radius: 30%;
+            /*設定全部邊角為圓角程度（可為百分比或px）*/
+}
+
+a:hover{
+        background-color: green; /*因a已完成盒化/區塊/隱藏底線設定，故省略*/
+        border: rgb(0, 247, 255) 5px dashed; /*設定邊界線*/
+        border-radius: 10px 20px 5px 25px; /*分別設定左上->右上->右下->左下邊角*/
+        
+}

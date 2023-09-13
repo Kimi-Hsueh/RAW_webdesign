@@ -1,0 +1,15 @@
+body{
+    background-image: url(./bg02.jpg);
+    /*背景圖CSS語法 (缺指令)*/
+}
+
+.box{
+    background-color: rgba(125,100,150, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin: auto;
+    /*插入背景圖片*/
+    background-image: url(./bg03.jpg);
+    /*設定背影重復樣式 (no-repeat/repeat/repeat-x/repeat-y*/
+    background-repeat: repeat-x;
+}
