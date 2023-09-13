@@ -1,15 +1,29 @@
 body{
-    background-image: url(./bg02.jpg);
-    /*背景圖CSS語法 (缺指令)*/
+    background-image: url(./1920x1200.jpg);
+    /*將背景圖固定*/
+    background-attachment: fixed;
 }
 
 .box{
-    background-color: rgba(125,100,150, 0.3);
+    background-color: rgba(125, 100, 150, 0.529);
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin: auto;
-    /*插入背景圖片*/
-    background-image: url(./bg03.jpg);
-    /*設定背影重復樣式 (no-repeat/repeat/repeat-x/repeat-y*/
-    background-repeat: repeat-x;
+    /*插入背景圖片
+    background-image: url(./bg01.gif);
+    /*設定背影重復樣式 (no-repeat/repeat/repeat-x/repeat-y
+    background-repeat: repeat-y;
+    /*設定背景位置
+    background-position: top , center;
+    /*background-position: 20px 30px;*/
+
+    /*多張圖片重疊
+    background-image: url(./bg06.png),url(./bg07.png),url(./bg08.png);
+    background-repeat: repeat-x, no-repeat, no-repeat;
+    background-position: top,right top,bottom;
+
+    使用說明
+        當多張圖片做為背景時，會依照參數順序對應repeat及position
+        ->
+        bg06.png , bg07.png , bg08.png
 }

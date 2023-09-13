@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.box{
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: auto; /*將圖片置於網頁最中間*/
+}
+
+a{
+display:block;
+/*box-sizing: border-box;*/
+/*box-sizing是如果有天設定條件同時出現width&padding&border時，以限制盒長/寬去減少計算*/
+background-image: url(./btn01.png);
+width: 300px;
+height: 60px;
+text-indent: 75px;
+line-height: 60px;
+text-decoration: none;
+color: blue;
+}
+
+a:hover{
+    background-image: url(./btn02.png);
+}
