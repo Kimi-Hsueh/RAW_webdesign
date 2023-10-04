@@ -1,0 +1,57 @@
+body {
+    background-image: url(./bg.png);
+    background-attachment: fixed; /*背景為固定不滾動*/
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    text-align: justify;
+}
+
+/*網頁的第一個盒子(包括整個文案部份)*/
+.box1 {
+    background-color: rgb(229, 209, 209);
+    width: 1200px; /*寬為1200px*/
+    height: 1880px; 
+    margin: 0 ; /*上下左右邊距為0*/
+    padding: 15px; /*四邊內縮15px*/
+}
+
+h1 {
+    text-align: center;
+    border: rgba(187, 160, 160, 0.671) thick solid;
+    border-radius: 30px;
+    color: brown;
+}
+
+h3,
+li {
+    list-style-type: none;
+    text-indent: 30px;
+    line-height: 30px;
+
+}
+
+.box {
+    background-color: beige;
+    width: 365px;
+    height: 450px;
+    margin: 10px 10px 20px 20px;
+    float: left;
+
+}
+
+.box:hover {
+    box-shadow: rgb(156, 95, 95) 0 0 20px;
+}
+
+.img {
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    border: white 8px solid;
+    border-radius: 20px;
+
+}
+
+h6 {
+    padding-top: 960px;
+    text-align: center;
+}
