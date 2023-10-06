@@ -1,0 +1,15 @@
+div{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    box-sizing: border-box; /*限制div內所有標籤依據div做為定位起始點*/
+}
+
+h1{}
+h1 img{}
+
+ul{}
+ul li{}
+ul li a{}
+ul li a :hover{}
