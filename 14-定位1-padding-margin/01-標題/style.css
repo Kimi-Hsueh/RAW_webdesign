@@ -1,6 +1,28 @@
 @charset "utf-8";
 @import url("reset.css");
+/*在進行定位時，儘量以整體設定先進行，這樣可以一次調整整體內容*/
+/*以圖片邊界->外盒距進行設定*/
+div{
+    background-image: url(./banner.jpg);
+    box-sizing: border-box; /*設定以border-box做為外盒*/
+    width: 1200px; /*盒子寬度為圖片寬*/
+    height: 350px; /*盒子高度為圖片高*/
+    padding-left: 650px; /*盒子內容的左邊起點(padding-往內縮)*/
+    padding-top: 200px; /*盒子內容的上邊起點(padding-往內縮)*/
+}
+h1{
 
+}
 
-
-
+/*以內容邊界->盒內距進行設定*/
+div{
+    background-image: url(./banner.jpg);
+    width: 550px; /*以內容的盒內距為寬度*/
+    height: 150px; /*以內容的盒內距為高度*/
+    padding-left: 650px; /*盒子內容的左邊起點*/
+    padding-top: 200px; /*盒子內容的上邊起點*/
+}
+/*請記得，如果是以盒內距作為計算時
+寬度為：width+padding-left
+高度為：height+padding-top
+*/
