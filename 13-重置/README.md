@@ -17,14 +17,14 @@
 <link rel="stylesheet" href="./style.css">
 ```
 
-### 方法二-匯入normalize.css
+### 方法二-在style.css匯入normalize.css
 ```
 @import url(./normalize.css)
 ```
 
 ### 方法三-直接將normalize.css檔的內容複制一份到style.csst檔內，然後再自己的設定檔再加入css的設定
 
-
+---
 # 為什麼在方法一的style. css檔內將將所有的網頁標籤設定margin及padding皆為0，網頁內容並沒有因style.css的後置順序修改呢？
 
 # Ans:因為在normalize.css檔內，是根據個別的html標籤進行設定，所以權限高過於style.css檔案
