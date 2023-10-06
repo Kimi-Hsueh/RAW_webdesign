@@ -9,6 +9,8 @@ ul{
 
 li{
     margin-bottom: 5px; /*設定每個li的下方間距為5px*/
+    float: left; /*將li的排列設定為由左自右*/
+    margin-right: 5px; /*水平間隔為5px*/
 }
 
 a{
