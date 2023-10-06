@@ -1,4 +1,26 @@
+/* CSS檔案的連結方式 */
+
+/*方法一-在html檔上先後加上normalize.css及自訂的style.css
+<link rel="stylesheet" href="./normalize.css">
+<link rel="stylesheet" href="./style.css">
+*/
+
+
+/*方法二-匯入normalize.css
+@import url(./normalize.css)
+*/
+
+/*方法三-直接將normalize.css檔的內容複制一份到style.csst檔內，然後再自己的設定檔再加入css的設定*/
 @charset "utf-8";
 /* CSS Document */
 
+/* 在所有的網頁標籤設定margin及padding皆為0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+為什麼網頁內容沒有因style.css的後置順序修改呢？
+因為在normalize.css檔內，是根據個別的html標籤進行設定，所以權限高過於style.css檔案
+*/
 
