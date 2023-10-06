@@ -1,19 +1,26 @@
 @charset "utf-8";
+body{
 
+}
 ul{
-    padding-left: 0;
+    list-style: none;
+    padding-left: 0; /*從左往右間距0px*/
 }
 
 li{
-    list-style: none;
-    /*float:left 按水平由左至右排列 */
-    float:left;
-    
+    margin-bottom: 5px; /*設定每個li的下方間距為5px*/
 }
 
 a{
-    display:block;
-    margin: 10px;
+    background-color: gainsboro; 
+    display: block;  /*設定為區塊顯示*/
+    width: 200px; /*設定區塊寬度為200px*/
+    height: 60px; /*設定區塊高度為60px*/
+    text-align: center; /*設定文字在區塊的水平對齊為center*/
+    line-height: 60px; /*設定文字在區塊內的行高與區塊高度相同*/
+    text-decoration: none; /*設定文字不要超連結的underline*/
 }
 
-a:hover{}
+a:hover{
+    background-color: aqua; /*設定滑鼠在滑過a連結區塊時，出現aqua的顏色*/
+}
