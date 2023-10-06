@@ -1,15 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 div{
     background-image: url(./banner.png);
     width: 1000px;
     height: 150px;
     margin: auto;
-    box-sizing: border-box; /*限制div內所有標籤依據div做為定位起始點*/
+    position: relative; /*限制div內所有浮動的標籤依據div做為定位起始點*/
 }
 
-h1{}
+h1{
+    position: absolute; /*將h1設定為浮動設定*/
+    left: 50px; /*從div的左邊移50px*/
+    top: 10px; /*從div的上邊移10px*/
+}
 h1 img{}
 
-ul{}
-ul li{}
+ul{
+    position: absolute; /*將ul設定為浮動設定*/
+    right: 50px; /*從div的右邊移50px*/
+    top: 10px; /*從div的上邊移10px*/
+}
+ul li{
+    float: left; /*將li設定武為水平排列*/
+    margin: 5px; /*將各個li間隔5px*/
+}
 ul li a{}
 ul li a :hover{}
