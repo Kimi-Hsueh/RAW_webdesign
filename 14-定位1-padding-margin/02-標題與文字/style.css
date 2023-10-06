@@ -1,6 +1,21 @@
 @charset "utf-8";
 @import url("reset.css");
 
-
-
-
+/*在進行定位時，儘量以整體設定先進行，這樣可以一次調整整體內容*/
+div{
+    background-image: url(./banner.jpg);
+    box-sizing: border-box;
+    width: 1200px;
+    height: 350px;
+    padding-left: 650px; /*設定外盒水平距為650px(padding-往內縮)*/
+    padding-top: 130px; /*設定外盒垂直距為130px(padding-往內縮)*/
+}
+/*margin-盒內距*/
+h1{
+    margin-bottom: 20px; 
+    /*設定標題下方距離為20px(margin-向外推)*/
+}
+p{
+    padding-right: 100px; 
+    /*設定文字右側距離為100px(margin-向外推)*/
+}
