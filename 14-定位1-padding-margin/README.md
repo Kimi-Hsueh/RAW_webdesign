@@ -13,5 +13,5 @@
 高度為：height+padding-top
 
 ## 如果下了box-sizing: border-box限制時：
-寬度就固定為：width
-高度就固定為：height
+寬度就固定為：box的width
+高度就固定為：box的height
