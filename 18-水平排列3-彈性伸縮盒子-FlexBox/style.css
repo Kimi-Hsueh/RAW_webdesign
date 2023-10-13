@@ -24,9 +24,9 @@ body{
 	flex-wrap: wrap;
 	/*flex-direction: row; /*如果是以column做直行排列，需要設定盒高*/
 	/*justify-content: space-evenly; /*在所有div平均分配間距*/
-	align-items: center; /*設定單行物件置中對齊*/
+	align-items: flex-start; /*設定單行物件向上對齊*/
 	height: 1700px; /*設定盒高為1700px*/
-	align-content: flex-start ; /*設定多個物件向上對齊*/
+	align-content: center ; /*設定多個物件置中對齊*/
 
 	
 	
