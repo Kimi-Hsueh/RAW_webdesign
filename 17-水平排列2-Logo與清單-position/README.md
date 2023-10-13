@@ -29,9 +29,10 @@ ul li a{}
 ul li a :hover{}
 ```
 # 為什麼這個實例不需要使用box-sizing？
+  因為所有在div裡的物件被限制以“position: relative”做為對齊點，所以不需使用box-sizing
 
 # 如何區分position與float的使用時機？？？
 
-## position ->當標籤物件不要做水平對齊時
+  position ->當標籤物件不要做水平對齊時
 
-## float ->當標籤物件需要做水平對齊時
+  float ->當標籤物件需要做水平對齊時
