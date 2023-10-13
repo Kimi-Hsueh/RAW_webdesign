@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;}
+	
+body{
+	background-color:#E3E1C6;}
+.wrapper{
+	background-color:#FFF;}
+
+.header{
+	border-top:#066 20px solid;
+	border-bottom:#066 20px solid;}
+
+.header img{
+	vertical-align:bottom;
+    width: 100%;
+    height: auto;
+}
+
+.box{ 
+	display: flex; /*當有任何display:flex設定時，都是設定在母盒內*/
+
+}
+.box div{
+    width: 300px; /*設定每個欄位寬為300px*/
+}
+.b1{
+	background-color: rgb(70, 129, 181);
+    flex: 1 0 400px;/* flex的參數設定為：分配多出來剩下的空間(剩餘空間)/當小於滿板時所要縮小的空間(不足空間)/盒子的寬度（此處權限高餘.box div物件)
+}
+.b2{
+	background-color: aliceblue;
+    flex: 2 0 400px;
+}
+.b3{
+	background-color: bisque;
+    flex: 0 1 400px;
+}
