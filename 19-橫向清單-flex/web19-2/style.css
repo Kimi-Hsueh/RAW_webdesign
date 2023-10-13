@@ -1,2 +1,75 @@
 @charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
 
+h1{
+}
+h1 img{}
+
+ul{
+    display: flex;  /**/
+    flex-wrap: wrap; /**/
+    justify-content: flex-end; /**/
+    align-items: center;
+}
+ul li{
+}
+ul li a{    
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+ul li a :hover{}
+
+.A a{
+    background-image: url(./icon1_1.png);
+}
+.B a{
+    background-image: url(./icon2_1.png);
+}
+.C a{
+    background-image: url(./icon3_1.png);
+}
+.D a{
+    background-image: url(./icon4_1.png);
+}
+.E a{
+    background-image: url(./icon5_1.png);
+}
+
+.A a:hover{
+    background-image: url(./icon1_2.png);
+}
+.B a:hover{
+    background-image: url(./icon2_2.png);
+}
+.C a:hover{
+    background-image: url(./icon3_2.png);
+}
+.D a:hover{
+    background-image: url(./icon4_2.png);
+}
+.E a:hover{
+    background-image: url(./icon5_2.png);
+}

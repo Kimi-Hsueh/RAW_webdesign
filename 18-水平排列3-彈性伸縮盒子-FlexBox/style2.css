@@ -29,7 +29,7 @@ body{
 }
 .b1{
 	background-color: rgb(70, 129, 181);
-    flex: 1 0 400px;/* flex的參數設定為：分配多出來剩下的空間(剩餘空間)/當小於滿板時所要縮小的空間(不足空間)/盒子的寬度（此處權限高餘.box div物件)
+    flex: 1 0 400px;/* flex的參數設定為：分配多出來剩下的空間(剩餘空間)/當小於滿板時所要縮小的空間(不足空間)/盒子的寬度（此處權限高餘.box div物件)*/
 }
 .b2{
 	background-color: aliceblue;
