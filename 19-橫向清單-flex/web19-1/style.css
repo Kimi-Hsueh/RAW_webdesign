@@ -1,10 +1,7 @@
 @charset "utf-8";
 
 ul{
-	display: flex; /*當有任何display:flex設定時，都是設定在母盒內*/
-	flex-wrap: wrap;
-	justify-content: space-evenly; /*在所有div平均分配間距*/
-}
+	padding-left:0;}
 li{
 	list-style-type:none;
 }
