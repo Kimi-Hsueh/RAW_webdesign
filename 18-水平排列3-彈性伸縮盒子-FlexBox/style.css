@@ -29,7 +29,7 @@ body{
 	
 }
 .box div{
-	width: 30%;
+	width: 30%; /*設定每個欄位為頁面寬度的30%*/
 	padding: 20px; /*設定邊界內縮20px*/
 	box-sizing: border-box; /*設定以母盒作為邊界*/
 	/*width: calc(100%/3); /*設定母盒內的div平分1200px*/
