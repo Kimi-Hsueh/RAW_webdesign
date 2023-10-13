@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+div{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative; /*限制div內所有浮動的標籤依據div做為定位起始點*/
+}
+
+h1{
+    position: absolute; /*將h1設定為浮動設定*/
+    left: 50px; /*從div的左邊移50px*/
+    top: 15px; /*從div的上邊移10px*/
+}
+h1 img{}
+
+ul{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+ul li{
+    float: left;
+    list-style: none;
+}
+ul li a{    
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+ul li a :hover{}
+
+.icon1 a{
+    background-image: url(./icon1_1.png);
+}
+.icon2 a{
+    background-image: url(./icon2_1.png);
+}
+.icon3 a{
+    background-image: url(./icon3_1.png);
+}
+.icon4 a{
+    background-image: url(./icon4_1.png);
+}
+.icon5 a{
+    background-image: url(./icon5_1.png);
+}
+
+.icon1 a:hover{
+    background-image: url(./icon1_2.png);
+}
+.icon2 a:hover{
+    background-image: url(./icon2_2.png);
+}
+.icon3 a:hover{
+    background-image: url(./icon3_2.png);
+}
+.icon4 a:hover{
+    background-image: url(./icon4_2.png);
+}
+.icon5 a:hover{
+    background-image: url(./icon5_2.png);
+}
