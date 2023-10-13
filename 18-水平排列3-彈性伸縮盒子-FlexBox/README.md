@@ -9,7 +9,7 @@
 	flex-wrap: wrap;
 	/*flex-direction: row; /*如果是以column做直行排列，需要設定盒高*/
 	/*height: 1500px; /*設定盒高為1500px*/
-	justify-content: space-evenly; /*水平並在所有div有水平間距*/	
+	justify-content: space-evenly; /*在所有div平均分配間距*/	
 }
 ```
 width平均分配語法：
