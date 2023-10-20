@@ -16,6 +16,10 @@
 	position: absolute;
 	left: 300px;
 	top: 72px;
+	/* transform:scale(1.7);/*縮放比例設定*/
+	/* transform: rotate(-8deg); /*旋轉角度設定*/
+	/* transform: skew(20deg); /*文字傾斜角度設定/* */
+	transform: translate(15%); /*文字水平位移*/
 }
 .nav {
 	background-color: #F90;
@@ -37,17 +41,21 @@
 	font-weight: bold;
 	text-decoration: none;
 	color: #330;
-	border-radius: 40px;
 	text-shadow: #FFF 1px 1px 1px;
 	background-color: rgba(255, 255, 255, 0.3);
 	margin-right: 10px;
-	box-shadow: #333 2px 2px 2px;
+	/*啟動動畫效果*/
+	transition:all, 1.5s;
+	
 }
 .nav li a:hover {
 	color: #FFF;
+	border-radius: 40px;
 	background-color: #330;
 	text-shadow: none;
-	box-shadow: none;
+	box-shadow: #333 2px 2px 2px;
+	/*設定被滑過的動畫效果*/
+	transform: rotate(-8deg);
 }
 .content {
 	background-color: #F2EEDB;
