@@ -19,7 +19,17 @@
 	/* transform:scale(1.7);/*縮放比例設定*/
 	/* transform: rotate(-8deg); /*旋轉角度設定*/
 	/* transform: skew(20deg); /*文字傾斜角度設定/* */
-	transform: translate(15%); /*文字水平位移*/
+	/*transform: translate(15%); /*文字水平位移*/
+	animation: rolling 15s infinite cubic-bezier(.48,.5,.57,.57);
+}
+
+@keyframes rolling {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(720deg);
+	}
 }
 .nav {
 	background-color: #F90;
@@ -45,7 +55,7 @@
 	background-color: rgba(255, 255, 255, 0.3);
 	margin-right: 10px;
 	/*啟動動畫效果*/
-	transition:all, 1.5s;
+	transition:all, 2.5s;
 	
 }
 .nav li a:hover {
@@ -55,7 +65,7 @@
 	text-shadow: none;
 	box-shadow: #333 2px 2px 2px;
 	/*設定被滑過的動畫效果*/
-	transform: rotate(-8deg);
+	transform: rotate(360deg);
 }
 .content {
 	background-color: #F2EEDB;
