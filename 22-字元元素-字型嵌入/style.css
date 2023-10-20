@@ -67,7 +67,6 @@ span{
 }
 
 .box3 li a{
-	background-color: aliceblue;
 	display: block;
 	width: 200px;
 	height: 60px;
@@ -75,7 +74,34 @@ span{
 	margin-bottom: 10px;
 }
 
+.box3 li a:hover{
+	background-color: black;
+	color: yellow;
+}
 
+.box3 li a:hover span{
+	color: blanchedalmond;
+}
+
+.box4{
+	background-color: burlywood;
+	width: 600px;
+	height:200px;
+	margin: auto;
+	text-align: center;
+}
+
+.box4 p::before{
+	/*
+	插入google icon的做法
+	step1 複製icon的Code point代碼
+	step2 在content加入"\Code point代碼"
+	step3 在font-family加入"Material Symbols Outlined"
+	*/
+	content: "\ec15";
+	font-family:"Material Symbols Outlined" ;
+	font-size: 30px;
+}
 	
 /*======字型嵌入======*/
 /*
