@@ -8,6 +8,19 @@
     width: 1000px;
     height: 600px;
     margin: auto;
+    writing-mode: vertical-rl; /*改變文字為直行，順序為由右往左，下在box是因為要把包在裡面的整段<p>做直行的動作*/
 }
 
-.box p {}
+.box p {
+    margin-block-end: 20px; /*不管是直書或橫書，每個p段落與前一段落相距20px*/
+
+}
+
+strong{
+    color: blueviolet;
+}
+span{
+    text-orientation:upright;
+}
+
+/*strong與span為行內元素，用於變更個別文字的字型樣式*/

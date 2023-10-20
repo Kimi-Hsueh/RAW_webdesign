@@ -1,1 +1,13 @@
-p {}
+h1{
+    direction: rtl; /*指定文字的書寫方向*/
+    unicode-bidi: bidi-override; /*讓書寫方向生效*/
+}
+
+h2{
+    direction: rtl;
+}
+
+span{
+    direction: ltr;
+    unicode-bidi: embed;
+}
