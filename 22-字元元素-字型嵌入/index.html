@@ -6,8 +6,29 @@
 <!--在html的head區放入google的線上字
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Sometype+Mono:ital@1&family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 -->
+
+<!--可變式圖示：
+  step1 在html的head區貼上icon的連結
+  step2 複製該icon的css語法貼上css檔案內
+  step3 將該icon的連結貼到body內任一位置上
+-->
+<!--
+  可變式圖示：
+  step1 在html的head區貼上icon的連結
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!--靜態圖示：
+  step1 在html的head區貼上icon的連結
+  step2 將該icon的連結貼到body內任一位置上
+-->
+<!--靜態圖示：
+  step1 在html的head區貼上icon的連結
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -16,28 +37,50 @@
 <h2>Hello RWD</h2>
 <div class="wrapper">
 <div class="box box1">
-  <p><span>8</span> about</p>
-  <p><span>8</span> news</p>
-  <p><span>8</span> services</p>
-  <p><span>8</span> products</p>
-  <p><span>8</span> contacts</p>
+  <p><span>8 </span> A about</p>
+  <p><span>8 </span> B news</p>
+  <p><span>8 </span> C services</p>
+  <p><span>8 </span> D products</p>
+  <p><span>8 </span> E contacts</p>
   </div>
 <div class="box box2">
   <ul>
-    <li><a href="#">about</a></li>
-    <li><a href="#">news</a></li>
-    <li><a href="#">services</a></li>
-    <li><a href="#">products</a></li>
-    <li><a href="#">contacts</a></li>
+    <!--
+  可變式圖示：
+  step3 將該icon的連結貼到body內任一位置上
+  -->
+    <li><span class="material-symbols-outlined">
+      arrow_right_alt</span><a href="#">about</a></li>
+    <li><span class="material-symbols-outlined">
+      check</span><a href="#">news</a></li>
+    <li><span class="material-symbols-outlined">
+      check</span><a href="#">services</a></li>
+    <li><span class="material-symbols-outlined">
+      check</span><a href="#">products</a></li>
+    <li><span class="material-symbols-outlined">
+      check</span><a href="#">contacts</a></li>
   </ul>
   </div>
 <div class="box box3">
   <ul>
-    <li><a href="#">about</a></li>
-    <li><a href="#">news</a></li>
-    <li><a href="#">services</a></li>
-    <li><a href="#">products</a></li>
-    <li><a href="#">contacts</a></li>
+    <!--靜態圖示：
+  step2 將該icon的連結貼到body內任一位置上
+    -->
+    <li><span class="material-symbols-outlined">
+      add_circle
+      </span><a href="#">about</a></li>
+    <li><span class="material-symbols-outlined">
+      add_circle
+      </span><a href="#">news</a></li>
+    <li><span class="material-symbols-outlined">
+      add_circle
+      </span><a href="#">services</a></li>
+    <li><span class="material-symbols-outlined">
+      add_circle
+      </span><a href="#">products</a></li>
+    <li><span class="material-symbols-outlined">
+      add_circle
+      </span><a href="#">contacts</a></li>
   </ul>
   </div>
 

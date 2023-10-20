@@ -90,6 +90,16 @@ src: url(./NEORD___.ttf)
 	src: url(./Entypo-webfont.ttf);
 }
 
+/*
+  可變式圖示：
+  step2 複製該icon的css語法貼上css檔案內
+*/
+.material-symbols-outlined {
+  font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;
+  font-size: 50px;
+  color: aqua;
+}
+
 
 
 
