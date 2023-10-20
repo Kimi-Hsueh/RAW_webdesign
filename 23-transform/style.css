@@ -20,9 +20,10 @@
 	/* transform: rotate(-8deg); /*旋轉角度設定*/
 	/* transform: skew(20deg); /*文字傾斜角度設定/* */
 	/*transform: translate(15%); /*文字水平位移*/
-	animation: rolling 15s infinite cubic-bezier(.48,.5,.57,.57);
+	animation: rolling 15s infinite cubic-bezier(.48,.5,.57,.57);/*設定動畫的播放條件*/
 }
 
+/*設定動畫的動作*/
 @keyframes rolling {
 	0%{
 		transform: rotate(0deg);
