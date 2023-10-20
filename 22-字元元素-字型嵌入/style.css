@@ -10,7 +10,17 @@ body{
 h1{
 	font-size:60px;
 	text-align:center;
-	margin:10px;}
+	margin:10px;
+	/*在css的設定內放入google線上字型的css設定*/
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+h2{
+	font-style: normal;
+	text-align: center;
+	/*在css的設定內放入google線上字型的css設定*/
+	font-family: 'Yuji Hentaigana Akari', cursive;
+}
 .wrapper{
 	background-color:#FFF;
 	width:1200px;
@@ -27,9 +37,11 @@ h1{
 	box-sizing:border-box;
 	border:#333 3px solid;
 	border-radius:20px;
+
 	}
 /*==============================*/
 .box1{
+	font-family: 'Sometype Mono', monospace;
 	background-color:#F90;
 	}
 
