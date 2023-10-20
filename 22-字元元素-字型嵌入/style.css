@@ -18,9 +18,14 @@ h1{
 h2{
 	font-style: normal;
 	text-align: center;
+	font-size: 60px;
 	/*在css的設定內放入google線上字型的css設定*/
-	font-family: 'Yuji Hentaigana Akari', cursive;
+	/*font-family: 'Yuji Hentaigana Akari', cursive;*/
+
+	/*套用載入的字型(*font-family: 載入字型的關鍵字*/
+	font-family: "NEORD";
 }
+
 .wrapper{
 	background-color:#FFF;
 	width:1200px;
@@ -45,6 +50,12 @@ h2{
 	background-color:#F90;
 	}
 
+span{
+	font-family: Entypo;
+	font-size: 80px;
+	/*在同一行的行高置中對齊*/
+	vertical-align: middle; 
+}
 /*==============================*/
 .box2{
 	background-color:#9C0;
@@ -58,6 +69,26 @@ h2{
 
 	
 /*======字型嵌入======*/
+/*
+step1 在同資料夾內放入要載入的字型
+step2 設定載入字型的關鍵字(font-family: NEORD)
+step3 設定載入字型的路徑
+src: url(./NEORD___.ttf)
+*/
+@font-face {
+	font-family: NEORD;
+	src: url(./NEORD___.ttf);
+}
+
+@font-face {
+	font-family: "3Dumb";
+	src: url(./3Dumb-webfont.ttf);
+}
+
+@font-face {
+	font-family: Entypo ;
+	src: url(./Entypo-webfont.ttf);
+}
 
 
 
