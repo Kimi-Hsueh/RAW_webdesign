@@ -1,0 +1,29 @@
+*{}
+body{}
+.container{}
+
+.header{}
+.header h1{}
+.header h1 img{}
+
+
+
+.nav{}
+.nav ul{}
+.nav li{}
+.nav li a{}
+.nav li a:hover{}
+
+
+
+.content{}
+.content h2{}
+.content p{}
+.content p img{}
+
+
+
+.footer{}
+.footer h1{}
+.footer h2{}
+
