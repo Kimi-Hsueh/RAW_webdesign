@@ -97,8 +97,6 @@ body{
 }
 
 .content img{
-    border: #fff 10px dashed;
-    border-radius: 40px;
 }
 
 .footer{
@@ -109,3 +107,16 @@ body{
 }
 .footer h2{}
 .footer h4{}
+
+.img_left{
+    float: left;
+}
+
+.img_right{
+    float: right;
+}
+
+.border{
+    border: #fff 10px dashed;
+    border-radius: 40px;
+}
