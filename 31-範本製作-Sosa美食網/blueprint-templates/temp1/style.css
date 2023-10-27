@@ -65,7 +65,9 @@ body{
     text-decoration: none;
     border-bottom: black 5px dashed;
 }
-.nav li a:hover{}
+.nav li a:hover{
+    color: white;
+}
 
 /*CSS偽類使用說明：https://www.oxxostudio.tw/articles/201405/css-selector.html*/
 .nav li:last-child a{
@@ -82,6 +84,7 @@ body{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 15px;
 }
 .footer h2{}
 .footer h4{}
