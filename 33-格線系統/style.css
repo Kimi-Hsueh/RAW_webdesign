@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*===母層===*/
+.box{}
+
+
+/*===子層===*/
+.box div{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.b1{background-color:#F8B9BA;}
+.b2{background-color: #FFD6BB;}
+.b3{background-color: #FFF9AA;}
+.b4{background-color:#DDFFA3;}
+.b5{background-color:#9DEF9A;}
+.b6{background-color:#7AD3A8;}
+.b7{background-color:#8BDFDD;}
+.b8{background-color:#8FBAED;}
+.b9{background-color:#5071D9;}
+.b10{background-color:#8778E5;}
+.b11{background-color:#D187ED;}
+.b12{background-color:#F495E2;}
