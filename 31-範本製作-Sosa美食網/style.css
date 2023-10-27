@@ -120,3 +120,7 @@ body{
     border: #fff 10px dashed;
     border-radius: 40px;
 }
+
+.content>p:first-of-type{
+    color: red;
+}
