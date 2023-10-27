@@ -2,3 +2,13 @@
 table {
     margin: auto;
 }
+
+tr{
+    background-color: beige;
+}
+tr:first-child{
+    background-color: aqua;
+}
+tr:nth-child(2n){
+    background-color: darkseagreen;
+}
