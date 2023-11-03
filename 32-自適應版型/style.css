@@ -95,6 +95,8 @@ html,body{
 .nav .navbox li a:hover{}
 
 .footer{
+    background-color: black;
+    color: whitesmoke;
     text-align: center;
 }
 .footer h2{}
@@ -102,11 +104,51 @@ html,body{
 
 /*設定平版與手機的css*/
 @media screen and (max-width:1200px)  and  (min-width:769px) {
-    .header{
-        background-color: black;
+    .office{
+        flex-wrap:wrap;
+    }
+    .office .ofbox{
+        width: 44%;
+    }
+    .office .ofbox img{
+    }
+    .office .ofbox p{
+
+    }
+    .ad{
+        flex-wrap: wrap;
+    }
+    .adbox{
+        width: 50%;
+    }
+    .nav{
+        flex-wrap: wrap;
+    }
+    .nav .navbox{
+        width: 32%;
     }
 }
-
 @media screen and (max-width:768px){
-
+    .office{
+        flex-wrap:wrap;
+    }
+    .office .ofbox{
+        width: 88%;
+    }
+    .office .ofbox img{
+    }
+    .office .ofbox p{
+    }
+    .ad{
+        flex-wrap: wrap;
+    }
+    .adbox{
+        width: 88%;
+    }
+    .nav{
+        flex-wrap: wrap;
+    }
+    .nav .navbox{
+        width: 80%;
+    }
 }
