@@ -1,7 +1,11 @@
 @charset "utf-8";
 
 /*===母層===*/
-.box{}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px 40px;
+}
 
 
 /*===子層===*/
@@ -11,7 +15,11 @@
     padding: 50px;
 }
 
-.b1{background-color:#F8B9BA;}
+.b1{background-color:#F8B9BA;
+    /*grid-column-start: 1; /*合併從第一條線開始*/
+    /*grid-column-end: 3;/*合併在第三條線結束*/
+    grid-column: 1/span 3; /*合併1~3column*/
+}
 .b2{background-color: #FFD6BB;}
 .b3{background-color: #FFF9AA;}
 .b4{background-color:#DDFFA3;}
