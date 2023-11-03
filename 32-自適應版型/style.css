@@ -1,36 +1,102 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{}
-html,body{}
-.header{}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, "微軟正黑體" sans-serif;
+    font-size: 18px;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    align-items: center;
+}
 .header h1{}
-.header ul{}
-.header li{}
+.header ul{
+}
+.header li{
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
 .header li a{}
 .header li a:hover{}
 
 .banner{}
-.banner img{}
+.banner img{
+    vertical-align: bottom; /*設定圖片向下對齊*/
+    width: 100%; /*設定圖片自動與視窗比例相同*/
+    height: auto;
+}
 
-.office{}
-.office .ofbox{}
-.office .ofbox img{}
+.office{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.office .ofbox{
+    background-color: aliceblue;
+    width: 23%; /*圖片均分視窗總寬度25%*/
+    padding: 2%; /*設定ofbox內的小盒子隨視窗比例間距2%*/
+    margin: 1%; /*設定小盒子內距隨視窗比例間距1%*/
+    text-align: center;
+}
+.office .ofbox img{
+    max-width: 100%; /*設定圖片比例為自身比例*/
+    height: auto;
+}
 .office .ofbox p{}
 
-.ad{}
-.adbox{}
-.ad img{}
+.ad{
+    background-color: burlywood;
+    display: flex;
+}
+.adbox{
+    background-color: #8a4747;
+    width: 25%;
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
 
-.nav{}
-.nav .navbox{}
-.nav .navbox p{}
-.nav .navbox ul{}
-.nav .navbox li{}
+.nav{
+    background-color: rgb(212, 209, 209);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.nav .navbox{
+    background-color: rgb(165, 104, 104);
+    width: 20%;
+    margin: 1%;
+    padding: 20px;
+}
+.nav .navbox p{
+    padding: 9px;
+    text-align: center;
+}
+.nav .navbox ul{
+
+}
+.nav .navbox li{
+    list-style: none;
+    text-align: center;
+}
 .nav .navbox li a{}
 .nav .navbox li a:hover{}
 
-.footer{}
+.footer{
+    text-align: center;
+}
 .footer h2{}
 .footer p{}
 
