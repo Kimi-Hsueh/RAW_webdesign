@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+}
+.header h1 img{}
+.header ul{
+    display: flex;
+    padding-right: 30px;
+}
+.header li{
+    list-style: none;
+    margin-right: 5px;
+}
+.header li a {
+    text-decoration: none;
+}
+.header li a:hover{
+    color: blueviolet;
+}
+
+.banner{}
+.banner img{}
+.banner label{}
+
+.ad1{}
+.adbox h1{}
+.adbox h2{}
+.adbox p{}
+
+.content{}
+.content h1{}
+.content p{}
+
+.ad2{}
+.ad2 img{}
+.ad2 h1{}
+.ad2 p{}
+.ad2 p a{}
+.ad2 p a:hover{}
+
+.connect{}
+.connect img{}
+.connect h1{}
+.connect p{}
