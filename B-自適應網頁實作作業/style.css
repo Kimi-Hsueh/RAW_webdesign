@@ -60,7 +60,27 @@ body{
 }
 
 
-.ad1{}
+.ad1{
+    display: flex;
+    justify-content: center;
+}
+.ad1 .adbox1{
+    background-color: brown;
+    width: 20%;
+    padding-left: 10px;
+}
+.ad1 .adbox2 {
+    background-color: rgb(209, 86, 86);
+    width: 20%;
+}
+.ad1 .adbox3 {
+    background-color: rgb(75, 36, 36);
+    width: 20%;
+}
+.ad1 .adbox4 {
+    background-color: rgb(201, 187, 187);
+    width: 20%;
+}
 .adbox h1{}
 .adbox h2{}
 .adbox p{}
