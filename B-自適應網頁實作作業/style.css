@@ -31,12 +31,34 @@ body{
     color: blueviolet;
 }
 
-.banner{}
-.banner img{
+.banner{
+    box-sizing: border-box;
+    position: relative;
+}
+.banner h1{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    color: white;
+}
+.banner p{
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    color: white;
+    width: 375px;
+}
+.banner label {
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+    width: 100%;
+}
+.banner img {
     width: 100%;
     height: auto;
 }
-.banner label{}
+
 
 .ad1{}
 .adbox h1{}
